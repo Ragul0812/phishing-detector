@@ -44,7 +44,7 @@ Detect phishing websites using rule-based logic such as:
 ### 🔽 1. Clone the Repository
 
 git clone https://github.com/your-username/phishing-detector.git 
-cd phishing-detector
+| cd phishing-detector
 
 
 > Replace \`your-username\` with your actual GitHub username.
@@ -53,8 +53,9 @@ cd phishing-detector
 
 ### 🧪 2. Create a Virtual Environment (Optional but Recommended)
 
-python3 -m venv venv 
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python3 -m venv venv | 
+ source venv/bin/activate
+ # On Windows: venv\Scripts\activate
 
 ---
 

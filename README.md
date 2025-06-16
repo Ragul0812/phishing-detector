@@ -28,15 +28,14 @@ Detect phishing websites using rule-based logic such as:
 ## 📁 Folder Structure
 
 phishing-detector/
-├── assets/                 # Folder containing background image
+├── assets/                  # Folder containing background image
 │   └── bg.png
-├── phishing_gui_app.py     # Main GUI application file
-├── url_checker.py          # URL analysis wrapper
-├── utils.py                # Utility functions
-├── requirements.txt        # Dependencies list
-├── README.md               # Project documentation
-└── .gitignore              # Files to exclude from Git
-
+├── phishing_gui_app.py      # Main GUI application file
+├── url_checker.py           # URL analysis wrapper
+├── utils.py                 # Utility functions
+├── requirements.txt         # Dependencies list
+├── README.md                # Project documentation
+└── .gitignore               # Git ignore configuration
 
 ---
 
@@ -44,10 +43,9 @@ phishing-detector/
 
 ### 🔽 1. Clone the Repository
 
-\`\`\`bash
 git clone https://github.com/your-username/phishing-detector.git
 cd phishing-detector
-\`\`\`
+
 
 > Replace \`your-username\` with your actual GitHub username.
 
@@ -55,26 +53,20 @@ cd phishing-detector
 
 ### 🧪 2. Create a Virtual Environment (Optional but Recommended)
 
-\`\`\`bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-\`\`\`
 
 ---
 
 ### 📦 3. Install Required Packages
 
-\`\`\`bash
 pip install -r requirements.txt
-\`\`\`
 
 ---
 
 ### 🚀 4. Run the Application
 
-\`\`\`bash
 python3 phishing_gui_app.py
-\`\`\`
 
 ---
 
@@ -89,9 +81,7 @@ python3 phishing_gui_app.py
 
 ## 📌 Requirements (from \`requirements.txt\`)
 
-\`\`\`
 Pillow
-\`\`\`
 
 > Add more if your project grows (e.g., scikit-learn for ML in the future).
 

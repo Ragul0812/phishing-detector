@@ -24,19 +24,18 @@ Detect phishing websites using rule-based logic such as:
 - 🎨 Stylish Tkinter-based GUI
 
 ---
-
 ## 📁 Folder Structure
 
-phishing-detector
-
-assets/                  # Folder containing background image
-  bg.png
-phishing_gui_app.py      # Main GUI application file
-url_checker.py           # URL analysis wrapper
-utils.py                 # Utility functions
-requirements.txt         # Dependencies list
-README.md                # Project documentation
-└── .gitignore               # Git ignore configuration
+| File/Folder            | Description                            |
+|------------------------|----------------------------------------|
+| `assets/`              | Folder containing background image     |
+| └── `bg.png`           | Background image file used in GUI      |
+| `phishing_gui_app.py`  | Main GUI application file              |
+| `url_checker.py`       | URL analysis wrapper                   |
+| `utils.py`             | Utility functions (validation, DNS, etc.) |
+| `requirements.txt`     | Dependencies list for the project      |
+| `README.md`            | Project documentation                  |
+| `.gitignore`           | Git configuration to ignore files      |
 
 ---
 

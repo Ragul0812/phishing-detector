@@ -85,6 +85,24 @@ Pillow
 
 > Add more if your project grows (e.g., scikit-learn for ML in the future).
 
+## 📸 Project Output
+
+Here are sample screenshots from the tool in action:
+
+### 🖼️ Starting Page
+![Startup GUI](output/gui_startup.png)
+
+### ✅ Legitimate URL (Secure)
+![Legitimate Secure](output/legitimate_secure.png)
+
+### ⚠️ Illegitimate URL (Phishing)
+![Phishing Detected](output/phishing_detected.png)
+
+### ❌ Invalid URL Format
+![Invalid URL](output/invalid_url.png)
+
+### 🔓 Legitimate URL (Insecure)
+![Legitimate Insecure](output/legitimate_insecure.png)
 
 This project is intended for educational use only.
 Use responsibly and never to harm or deceive others.

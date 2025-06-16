@@ -27,14 +27,15 @@ Detect phishing websites using rule-based logic such as:
 
 ## 📁 Folder Structure
 
-phishing-detector/
-├── assets/                  # Folder containing background image
-│   └── bg.png
-├── phishing_gui_app.py      # Main GUI application file
-├── url_checker.py           # URL analysis wrapper
-├── utils.py                 # Utility functions
-├── requirements.txt         # Dependencies list
-├── README.md                # Project documentation
+phishing-detector
+
+assets/                  # Folder containing background image
+  bg.png
+phishing_gui_app.py      # Main GUI application file
+url_checker.py           # URL analysis wrapper
+utils.py                 # Utility functions
+requirements.txt         # Dependencies list
+README.md                # Project documentation
 └── .gitignore               # Git ignore configuration
 
 ---
@@ -43,7 +44,7 @@ phishing-detector/
 
 ### 🔽 1. Clone the Repository
 
-git clone https://github.com/your-username/phishing-detector.git
+git clone https://github.com/your-username/phishing-detector.git 
 cd phishing-detector
 
 
@@ -53,7 +54,7 @@ cd phishing-detector
 
 ### 🧪 2. Create a Virtual Environment (Optional but Recommended)
 
-python3 -m venv venv
+python3 -m venv venv 
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ---

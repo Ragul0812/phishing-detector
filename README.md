@@ -43,11 +43,8 @@ Detect phishing websites using rule-based logic such as:
 
 ### 🔽 1. Clone the Repository
 
-git clone https://github.com/your-username/phishing-detector.git  
+git clone https://github.com/Ragul0812/phishing-detector.git  
  | cd phishing-detector
-
-
-> Replace \`your-username\` with your actual GitHub username.
 
 ---
 
